@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draggable Objects</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .draggable {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      cursor: grab;
+    }
+
+    #object1 {
+      background-color: red;
+      top: 50px;
+      left: 50px;
+    }
+
+    #object2 {
+      background-color: green;
+      top: 200px;
+      left: 150px;
+    }
+
+    #object3 {
+      background-color: blue;
+      top: 350px;
+      left: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div id="object1" class="draggable"></div>
+  <div id="object2" class="draggable"></div>
+  <div id="object3" class="draggable"></div>
+  <script src="script.js"></script>
+</body>
+</html>
